@@ -20,7 +20,7 @@ mkdir -p "workdir"; cd "workdir"
 echo "Getting Noto Fonts..."
 git clone https://github.com/googlefonts/noto-fonts
 cd noto-fonts; git checkout "$NOTO_COMMIT"; cd ..
-rm -f {hinted,unhinted}/ttf/NotoSansTifinagh/NotoSansTifinagh{A,G,H,R,S,T}*.ttf
+rm -f noto-fonts/{hinted,unhinted}/ttf/NotoSansTifinagh/NotoSansTifinagh{A,G,H,R,S,T}*.ttf
 
 echo "Getting Noto CJK..."
 git clone https://github.com/googlefonts/noto-cjk
