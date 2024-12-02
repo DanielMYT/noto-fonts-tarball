@@ -1,8 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # The authors of this script claim no copyright on it due to it being trivial.
 # If a license is needed, it can be considered dedicated to the public domain.
-# No warranty or guarantee of any kind is provided.
+# In jurisdictions that don't recognise the public domain, the authors grant
+# unlimited freedom to obtain, use, study, modify and distribute any and all
+# parts of the software for any purpose and by any means. No warranty or
+# guarantee of any kind is provided.
 
 # Note that the output file(s) produced from this script will be under the
 # license(s) of their own project(s). The authors of this script make
